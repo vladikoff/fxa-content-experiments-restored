@@ -10,7 +10,7 @@ module.exports = {
   },
   groupingFunction: function (subject) {
     return {
-      avatarLinkVisible: /@mozilla\.com$/.test(subject.email)
+      avatarLinkVisible: /@mozilla\.(?:com|org)$/.test(subject.email)
     };
   }
 };
