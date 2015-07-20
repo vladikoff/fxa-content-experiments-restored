@@ -3,5 +3,6 @@
   "communicationPrefsVisible": false,
   "mailcheckEnabled": false,
   "sentryEnabled": false,
+  "isSampledUser": false,
   "springCampaign2015": false
 }
