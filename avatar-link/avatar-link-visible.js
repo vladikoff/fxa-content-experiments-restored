@@ -3,6 +3,7 @@
 module.exports = {
   name: 'Is the avatar link visible',
   startDate: '2015-01-01',
+  endDate: '2015-08-12',
   subjectAttributes: ['email'],
   independentVariables: ['avatarLinkVisible'],
   eligibilityFunction: function (subject) {
@@ -12,5 +13,8 @@ module.exports = {
     return {
       avatarLinkVisible: /@mozilla\.(?:com|org)$/.test(subject.email)
     };
+  },
+  conclusion: {
+    avatarLinkVisible: true
   }
 };
